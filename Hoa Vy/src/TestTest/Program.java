@@ -11,6 +11,7 @@ public class Program {
 	    public WebDriver driver ; 
   @Test
   public void verifyHomepageTitle() {
+     System.out.println("Welcome to this page");
      System.setProperty("webdriver.chrome.driver", driverPath);
      driver = new ChromeDriver();
      driver.get(baseUrl);
