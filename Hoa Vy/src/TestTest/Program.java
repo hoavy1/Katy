@@ -8,6 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class Program {
+
 	@Test
 	public void verifyHomepageTitle() {
 		String baseUrl = "http://demo.guru99.com/test/newtours/";
@@ -41,4 +42,5 @@ public class Program {
 		driver.close();
 
 	}		
+
 }
